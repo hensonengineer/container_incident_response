@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: forensics-pod
+  namespace: default
+spec:
+  containers:
+  - name: forensics-container
+    image: forensics-toolkit:latest
